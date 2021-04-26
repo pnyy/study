@@ -1,0 +1,50 @@
+.container{
+  height: 100%;
+  .header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    .left{
+      flex:0 0 200px;
+      text-align: center;
+      .title{
+        color: #fff;
+        font-size: 18px;
+      }
+    }
+    .middle{
+      flex: 1;
+      .slider{
+        line-height: 64px;
+      }
+    }
+    .right{
+      .userName{
+        color: #fff;
+        font-size: 16px;
+        padding-right: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+  .body{
+    box-sizing: border-box;
+    padding-top: 64px;
+    height: 100%;
+    overflow: auto;
+  }
+}
+.userOperationList{
+  .operationItem{
+    padding: 10px;
+    a:link{
+      color: #000;
+    }
+    a:hover{
+      color: #409eff;
+    }
+  }
+}

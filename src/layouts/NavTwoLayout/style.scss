@@ -1,0 +1,17 @@
+
+.navtwo{
+  display: flex;
+  height: 100%;
+  .slider{
+    width: 200px;
+    height: 100%;
+    .menu{
+      height: 100%;
+    }
+  }
+  .main{
+    flex: 1;
+    height: 100%;
+    overflow: auto;
+  }
+}

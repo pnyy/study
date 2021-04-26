@@ -1,0 +1,12 @@
+.pageOne{
+  .infoWrapper{
+    display: flex;
+    justify-content: center;
+    .info{
+      width: 450px;
+      .infoItem{
+        margin-top: 10px;
+      }
+    }
+  }
+}
